@@ -10,10 +10,11 @@ const Home = () => {
     const jobArray = ['j', 'u', 'n', 'i', 'o', 'r', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
     
     useEffect(() => {
-        setTimeout(() => {
+        
+        let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 4000)
-    }, []);
+    }, [])
     
     return (
         <div className="container home-page">
