@@ -13,6 +13,15 @@ const About = () => {
                 <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={aboutArray} idx={15} /> 
                 </h1>
+                <p>
+                    I'm pretty cool
+                </p>
+                <p>
+                    Love learning
+                </p>
+                <p>
+                    Please hire me
+                </p>
             </div>
         </div>
     )
