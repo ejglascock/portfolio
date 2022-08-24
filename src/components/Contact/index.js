@@ -6,7 +6,7 @@ import './index.scss'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    const refForm = useRef;
+    const refForm = useRef();
 
 
     useEffect(() => {
@@ -53,7 +53,7 @@ const Contact = () => {
                         below either.
                     </p>
                     <div className="contact-form" >
-                        <form /*ref={refForm}*/ onSubmit={sendEmail} >
+                        <form ref={refForm} onSubmit={sendEmail} >
                             <ul>
                                 <li className="half" >
                                     <input type="text" name="name" placeholder="Name" required />
