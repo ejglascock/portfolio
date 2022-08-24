@@ -24,6 +24,7 @@
         height: 200px;
         border: 1px solid #ccc;
         background: rgba(255, 255, 255, 0.4);
+        text-align: center;
         font-size: 100px;
         display: flex;
         justify-content: center;
@@ -40,7 +41,7 @@
     }
 
     .face3 {
-        transform: rotateY(180deg) rotateX(90deg) translateZ(100px);
+        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
     }
 
     .face4 {
@@ -64,18 +65,18 @@
         transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     }
     16% {
-        transform: rotateY(-90deg);
+        transform: rotateY(-90deg) rotateZ(90deg);
     }
     33% {
-        transform: rotateY(-180deg)
+        transform: rotateY(-90deg) rotateX(90deg);
     }
     50% {
-        transform: rotateY(-180deg) rotateX(90deg);
+        transform: rotateY(-180deg) rotateZ(90deg);
     }
     66% {
         transform: rotateY(-270deg) rotateX(90deg);
     }
     83% {
-        transform: rotateY(-360deg) rotateX(90deg);
+        transform: rotateX(90deg);
     }
 }
