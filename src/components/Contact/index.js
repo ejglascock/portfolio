@@ -76,6 +76,17 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
+                <div className="info-map" >
+                    Elijah Glascock
+                    <br />
+                    29009 8th Ave S
+                    <br />
+                    Federal Way, WA 98003
+                    <br />
+                    USA
+                    <br />
+                    <span>ejglascock@gmail.com</span>
+                </div>
             </div>
             <Loader type="pacman" />
         </>
