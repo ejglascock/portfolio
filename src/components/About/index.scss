@@ -31,7 +31,7 @@
         box-shadow: 0 0 20px 0px lightyellow;
     }
 
-    .face12 {
+    .face1 {
         transform: translateZ(100px);
     }
 
@@ -40,10 +40,10 @@
     }
 
     .face3 {
-        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+        transform: rotateY(180deg) rotateX(90deg) translateZ(100px);
     }
 
-    .face42 {
+    .face4 {
         transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
     } 
 
@@ -67,15 +67,15 @@
         transform: rotateY(-90deg);
     }
     33% {
-        transform: rotateY(-90deg) rotateZ(90deg);
+        transform: rotateY(-180deg)
     }
     50% {
-        transform: rotateY(-180deg) rotateZ(90deg);
+        transform: rotateY(-180deg) rotateX(90deg);
     }
     66% {
-        transform: rotateY(-270deg) rotateZ(90deg);
+        transform: rotateY(-270deg) rotateX(90deg);
     }
     83% {
-        transform: rotateX(-90deg);
+        transform: rotateY(-360deg) rotateX(90deg);
     }
 }
