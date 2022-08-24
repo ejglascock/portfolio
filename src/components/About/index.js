@@ -1,3 +1,5 @@
+import { faCss3, faGithub, faHtml5, faJava, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
@@ -10,7 +12,7 @@ const About = () => {
         
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 4000)
+        }, 2400)
     }, [])
 
 
@@ -29,6 +31,30 @@ const About = () => {
                 <p>
                     Please hire me
                 </p>
+            </div>
+
+            <div className='stage-cube-cont'>
+                <div className='cubespinner'>
+                    <div className='face1'>
+                        <FontAwesomeIcon icon={faJava} color="#0d8ac7" />
+                    </div>
+                    <div className='face2'>
+                        <FontAwesomeIcon icon={faHtml5} color="#f06529" />
+                    </div>
+                    <div className='face3'>
+                        <FontAwesomeIcon icon={faCss3} color="#28a4d9" />
+                    </div>
+                    <div className='face4'>
+                        <FontAwesomeIcon icon={faReact} color="#5ed4f4" />
+                    </div>
+                    <div className='face5'>
+                        <FontAwesomeIcon icon={faJsSquare} color="#efd81d" />
+                    </div>
+                    <div className='face6'>
+                        <FontAwesomeIcon icon={faGithub} color="#171515" />
+                    </div>
+                </div>
+
             </div>
         </div>
     )
