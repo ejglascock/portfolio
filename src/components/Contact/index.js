@@ -87,6 +87,9 @@ const Contact = () => {
                     <br />
                     <span>ejglascock@gmail.com</span>
                 </div>
+                <div className="map-wrap" >
+                    
+                </div>
             </div>
             <Loader type="pacman" />
         </>
