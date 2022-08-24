@@ -64,6 +64,11 @@
         border: 1px solid #CAD2C5;
         float: right;
         border-radius: 4px;
+
+        &:hover {
+            background: #CAD2C5;
+            color: #354f52;
+        }
     }
 }
 
@@ -96,4 +101,13 @@
     float: right;
     width: 53%;
     height: 100%;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
 }
