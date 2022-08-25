@@ -1,7 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Loader from "react-loaders";
+import AnimatedLetters from "../AnimatedLetters";
+import "./index.scss";
 
 const Portfolio = () => {
-    return <div>Hello</div>;
+    const [letterClass, setLetterClass] = useState('text-animate');
+
+    useEffect(() => {
+        
+        let timeoutId = setTimeout(() => {
+            setLetterClass('text-animate-hover')
+        }, 4000)
+    }, [])
+
+    return (
+        <>
+            <div className="container portfolio-page">
+                <h1 className="page-title">
+                    <AnimatedLetters 
+                        letterClass={letterClass}
+                        strArray={['P', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o']} 
+                        idx={15}
+                    />
+                </h1>
+            </div>
+            <Loader type="pacman" />
+        </>
+    )
 }
 
 export default Portfolio
