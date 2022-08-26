@@ -127,7 +127,8 @@
     }
 }
 
-.hamburger-icon {
+.hamburger-icon,
+.close-icon {
     display: none;
 }
 
@@ -164,6 +165,7 @@
             position: initial;
             width: auto;
             margin-left: 10px;
+            color: #CAD2C5;
         }
 
         a svg {
@@ -175,7 +177,8 @@
         }
     }
 
-    .hamburger-icon {
+    .hamburger-icon,
+    .close-icon {
         display: block;
         position: absolute;
         top: 15px;
