@@ -51,7 +51,7 @@ const Contact = () => {
                     <p>
                         I am interested in a full time job as a junior developer. If you have
                         any requests or questions, don't hesitate to contact me using the form 
-                        below either.
+                        below.
                     </p>
                     <div className="contact-form" >
                         <form ref={refForm} onSubmit={sendEmail} >

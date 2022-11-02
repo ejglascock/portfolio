@@ -25,13 +25,19 @@ const About = () => {
                     <AnimatedLetters letterClass={letterClass} strArray={aboutArray} idx={15} /> 
                 </h1>
                 <p>
-                    I'm pretty cool
+                    Hello, I am Eli. I was raised in Idaho, attended Gonzaga University earning a B.S. in Biochemistry and a B.A. in Mathematics, and now live in Seattle with my husband and three pets (Ollie, Kiki, and Doctor Thiccolus Beans).
+                    I am an avid gamer, and that includes video, card, and board games. Ask me about my monthly board game night!
                 </p>
                 <p>
-                    Love learning
+                    Last year I decided I wanted to change my career path into software development. 
+                    I had dabbled previously, and it was something I enjoyed. 
+                    This required a big leap because I needed to leave my previous job.
+                    I've taken this time to finish Codecademy's Fullstack Developer Course and work on personal projects.
                 </p>
                 <p>
-                    Please hire me
+                    I am currently looking for a position as a Junior Developer. 
+                    If my story and projects resonate with you, please consider me for a position at your company!
+                    Thank you for checking out my website and learning a bit about me.
                 </p>
             </div>
 

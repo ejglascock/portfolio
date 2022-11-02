@@ -3,7 +3,7 @@
         {
             "cover": "/portfolio/pokle/pokle.png",
             "title": "Pokle",
-            "description": "React",
+            "description": "React Web App that is a Wordle-like game themed around Pokemon. There are 904 possible answers, and a help button which explains how to play.",
             "url": "https://main.d3baekbv5axtkn.amplifyapp.com/"
         }
     ]
