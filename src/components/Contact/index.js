@@ -90,7 +90,7 @@ const Contact = () => {
                 </div>
                 <div className="map-wrap" >
                     <MapContainer center={[47.3399296, -122.3196672]} zoom={13} >
-                        <TileLayer attribution='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>' url="https:{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                        <TileLayer attribution='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                         <Marker position={[47.3399296, -122.3196672]}>
                             <Popup>Eli lives here, visit for tea or board games!</Popup>
                         </Marker>
